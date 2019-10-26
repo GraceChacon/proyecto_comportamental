@@ -1,5 +1,5 @@
 <?php
-require_once "../crud/crudGrados.php";
+require_once "../crud/CrudGrados.php";
 
 $datos=array(
 		'grado'=> $_POST['grado'],
@@ -7,5 +7,5 @@ $datos=array(
 		'nivelescolar'=> $_POST['nivelescolar'],
 		'estado'=> $_POST['estado'],
 		);
-echo crudGrados::insertarDatos($datos);
+echo CrudGrados::insertarDatos($datos);
 ?>

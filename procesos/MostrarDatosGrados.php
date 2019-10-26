@@ -1,6 +1,6 @@
 <?php
 require_once "../crud/crudGrados.php";
-$obj=new Crud();
+$obj=new CrudGrados();
 $datos=$obj->mostrarDatos();
 $tabla='<table class="table table-dark">
 			<thead>
@@ -36,4 +36,3 @@ $tabla='<table class="table table-dark">
 								</tr>';
 	}
 	echo $tabla.$datosTabla.'</tbody></table>';
-?>
